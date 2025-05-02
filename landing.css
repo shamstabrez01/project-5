@@ -1,0 +1,109 @@
+/* Challenge CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-image: url(chaigym.png);
+  background-size: 100%;
+}
+
+/* nav-styleing */
+.navbar {
+  background-color: #6d6d6d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.logo img {
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.nav-links a:hover {
+  cursor: pointer;
+}
+
+/* Hero section styles */
+.hero {
+}
+
+.hero-content {
+  text-align: center;
+  color: #000000;
+}
+
+.hero-content h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #ff8400;
+}
+
+.hero-content p {
+  font-weight: lighter;
+}
+
+.cta-button {
+  background-color: #ff8c00;
+  border: 2px solid #ff8c00;
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+
+.cta-button:hover {
+  cursor: pointer;
+  background-color: #eaff00;
+  color: #000000;
+}
+
+/* Features section styles */
+.features {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000d6;
+  margin: 80px 20px;
+  padding: 60px 30px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.feature {
+  border: 2px solid #ff8c00;
+  border-radius: 10px;
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.feature h3 {
+  font-weight: bolder;
+  color: #ff8c00;
+}
+
+.feature p {
+  font-weight: lighter;
+  color: #ffffff;
+}
